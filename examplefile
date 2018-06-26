@@ -1,2 +1,14 @@
-coś nowego
-zmiany zmiany z kilka zmian
+from selenium import webdriver
+driver = webdriver.Firefox()
+
+cfw-add-item
+
+driver.switch_to_frame('formCreator_DnD_form')
+invisible xpath click
+
+add_new_field = driver.find_element_by_class_name('cfw-add-item')
+add_field = driver.find_element_by_id('cfwConfirmAddField')
+
+for field in range(5):
+...     add_new_field.click()
+...     add_field.click()
