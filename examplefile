@@ -1,14 +1,3 @@
-from selenium import webdriver
-driver = webdriver.Firefox()
+self._outcome.errors
 
-cfw-add-item
-
-driver.switch_to_frame('formCreator_DnD_form')
-invisible xpath click
-
-add_new_field = driver.find_element_by_class_name('cfw-add-item')
-add_field = driver.find_element_by_id('cfwConfirmAddField')
-
-for field in range(5):
-...     add_new_field.click()
-...     add_field.click()
+https://stackove rflow.com/questions/4414234/getting-pythons-unittest-results-in-a-teardown-method
